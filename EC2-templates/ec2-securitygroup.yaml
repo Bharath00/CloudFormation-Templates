@@ -1,0 +1,14 @@
+Resources:
+  myEc2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-03ededff12e34e59e
+      InstanceType: t2.micro
+      SecurityGroups:
+         - !Ref mySecurityGroup
+
+  mySecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: Demo-security
+      GroupDescription: "Demo Security Group"

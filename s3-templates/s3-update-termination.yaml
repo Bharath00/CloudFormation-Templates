@@ -1,0 +1,5 @@
+Resources:
+    Mys3Bucket:
+        Type: 'AWS::S3::Bucket'
+        Properties:
+            BucketName: "s3-demo-bharath-2378"
