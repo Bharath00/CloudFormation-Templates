@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  mySecurityGroup1:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: mySecurityGroup1
+      GroupDescription: Security Group for Testing 1
+      VpcId: vpc-73859b09
+  
+  mySecurityGroup2:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: mySecurityGroup2
+      GroupDescription: Security Group for Testing 2
+      VpcId: vpc-73859b09

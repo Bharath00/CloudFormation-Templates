@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Parameters:
+  getImageId:
+    Type: List<AWS::EC2::SecurityGroup::GroupName>
+    Description: "List of Security Groups"
+
+Resources:
+  demoInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-03ededff12e34e59e
+      InstanceType: t2.micro
+      SecurityGroups: !Ref getImageId
