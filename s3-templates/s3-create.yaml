@@ -2,4 +2,4 @@ Resources:
   Mys3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: reigger00943242343243243424324
+      BucketName: reigger009432423432432434243243
