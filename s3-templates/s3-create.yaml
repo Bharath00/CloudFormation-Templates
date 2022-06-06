@@ -2,4 +2,4 @@ Resources:
   Mys3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: TestingJenkinsTrigger00943242343243243424324
+      BucketName: rigger00943242343243243424324
