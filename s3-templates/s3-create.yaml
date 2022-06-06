@@ -1,4 +1,5 @@
 Resources:
   Mys3Bucket:
     Type: 'AWS::S3::Bucket'
-    Properties: {}
+    Properties:
+      BucketName: Testing Jenkins Trigger
